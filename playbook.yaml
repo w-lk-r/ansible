@@ -1,0 +1,7 @@
+---
+- name: Basic dev tools
+  hosts: localhost
+  become: false
+
+  tasks:
+    - include_tasks: tasks/git.yaml
