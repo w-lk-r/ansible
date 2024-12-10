@@ -5,3 +5,4 @@
 
   tasks:
     - include_tasks: tasks/git.yaml
+    - include_tasks: tasks/fish-shell.yaml

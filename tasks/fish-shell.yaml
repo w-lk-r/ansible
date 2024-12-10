@@ -1,0 +1,7 @@
+- name: Add fish stable repository from PPA
+  ansible.builtin.shell: sudo apt-add-repository ppa:fish-shell/release-3
+
+- name: Install Fish Shell
+  ansible.builtin.apt:
+    name: fish
+    state: present
