@@ -1,0 +1,8 @@
+- name: Base dev tools
+  become: true
+  ansible.builtin.apt: 
+   name:
+     - "stow"
+     - "tmux"
+  tags:
+   - base
